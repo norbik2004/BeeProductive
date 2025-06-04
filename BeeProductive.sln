@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeeProductive", "BeeProductive\BeeProductive.csproj", "{E8DB5272-2439-4EC7-954D-F0786EBD71EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BeeProductive", "BeeProductive\BeeProductive.csproj", "{E8DB5272-2439-4EC7-954D-F0786EBD71EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database", "database\Database.csproj", "{63DB8606-E8D9-4EDA-9212-45625C84DB7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DatabaseEntities", "database\DatabaseEntities.csproj", "{63DB8606-E8D9-4EDA-9212-45625C84DB7D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{60B4C1DB-5CF4-4C64-BD4D-D42676F05CDC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "Tests\Tests.csproj", "{60B4C1DB-5CF4-4C64-BD4D-D42676F05CDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{B124037C-A0B6-4B15-915F-CE8C1FD6B8FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services", "Services\Services.csproj", "{B124037C-A0B6-4B15-915F-CE8C1FD6B8FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
