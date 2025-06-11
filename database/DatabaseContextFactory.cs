@@ -9,8 +9,8 @@ namespace DatabaseEntities
         {
             var optionsBuilder = new DbContextOptionsBuilder<DatabaseContext>();
 
-            // Tutaj wpisz connection string do Twojej bazy Postgres
-            optionsBuilder.UseNpgsql("Host=localhost;Port=5432;Database=BeeProductiveDB;Username=postgres;Password=root");
+            // Ustaw swój connection string tutaj
+            optionsBuilder.UseSqlServer("Data Source=.\\sqlexpress;Initial Catalog=BeeProductiveDatabase;Integrated Security=True;TrustServerCertificate=True");
 
             return new DatabaseContext(optionsBuilder.Options);
         }

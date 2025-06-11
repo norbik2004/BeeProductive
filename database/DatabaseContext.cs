@@ -1,4 +1,6 @@
 ﻿using DatabaseEntities.Entities;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -8,15 +10,13 @@ using System.Threading.Tasks;
 
 namespace DatabaseEntities
 {
-    public class DatabaseContext : DbContext
+    public class DatabaseContext : IdentityDbContext<User>
     {
         public DatabaseContext(DbContextOptions<DatabaseContext> options) 
             : base(options)
         {
 
         }
-
-        public DbSet<Product> Products { get; set; }
 
     }
 }
